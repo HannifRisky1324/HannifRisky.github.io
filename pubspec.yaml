@@ -58,8 +58,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/mf-fais.png
-    - assets/images/bcg-2.png
+    - assets/image/mf-fais.png
+    - assets/image/bcg-2.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
