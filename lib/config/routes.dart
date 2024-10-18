@@ -4,5 +4,5 @@ import 'package:my_test/pages/about_page.dart';
 
 final Map<String, WidgetBuilder> appRoutes = {
   '/': (context) => const HomePage(),
-  '/about': (context) => AboutPage(),
+  '/about': (context) => const AboutPage(),
 };

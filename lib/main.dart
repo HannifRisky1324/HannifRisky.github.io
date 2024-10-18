@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:my_test/config/routes.dart'; // Import routes yang sudah didefinisikan
+import 'package:flutter/rendering.dart';
 
 void main() {
+  debugPaintSizeEnabled = false;
   runApp(const MyApp());
 }
 
@@ -11,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Flutter App',
+      debugShowCheckedModeBanner: false,
+      title: 'samsulhadi.com',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
